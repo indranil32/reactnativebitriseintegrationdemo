@@ -14,7 +14,8 @@
   },
   "homepage": "https://github.com/indranil32/reactnativebitriseintegrationdemo#readme",
   "dependencies": {
-    "webdriverio": "^5.16.13"
+    "react": "16.9.0",
+    "react-native": "0.61.5"
   },
   "scripts": {
     "android": "react-native run-android",
@@ -22,10 +23,6 @@
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint ."
-  },
-  "dependencies": {
-    "react": "16.9.0",
-    "react-native": "0.61.5"
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",
@@ -39,5 +36,7 @@
   },
   "jest": {
     "preset": "react-native"
-  }
+  },
+  "main": "index.js",
+  "description": ""
 }
